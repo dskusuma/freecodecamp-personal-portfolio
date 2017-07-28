@@ -5,7 +5,7 @@ html, body {
 
 header {
     min-height: 25%;
-    background: gray;
+    background: #3498db;
 }
 header .header-content {
     text-align: left;
@@ -14,7 +14,7 @@ header .header-content {
 }
 header .header-content .header-content-inner {
     max-width: none;
-    margin: 0;
+     margin: 0 0 0 10%; 
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -31,4 +31,8 @@ header .device-container {
 #img-75 {
     width: 75%;
     margin: 0 auto;
+}
+
+#portfolio {
+    padding: 5% 0;
 }
