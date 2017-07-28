@@ -1,0 +1,34 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    min-height: 25%;
+    background: gray;
+}
+header .header-content {
+    text-align: left;
+    padding: 0;
+    height: 75vh;
+}
+header .header-content .header-content-inner {
+    max-width: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+header .header-content .header-content-inner h1 {
+    font-size: 35px;
+}
+header .device-container {
+    max-width: none;
+    max-height: calc(0vh);
+    margin: 100px auto 0;
+}
+
+#img-75 {
+    width: 75%;
+    margin: 0 auto;
+}
